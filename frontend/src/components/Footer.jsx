@@ -8,7 +8,7 @@ const Footer = () => {
     {/* -----Left Side of Footer------ */}
     <div>
         <img className='mb-5 w-40'src={assets.logo} alt="logo"  />
-        <p>We are the only organization dedicated to improving patient care. We strive to provide the best services for our patients.</p>
+        <p classsname='w-full md:w-2/3 text-gray-600 leading-6' >We are the only organization dedicated to improving patient care. We strive to provide the best services for our patients.</p>
     </div>
     
 
@@ -17,8 +17,8 @@ const Footer = () => {
    <div>
     {/* -----Middle Side of Footer------ */}
     <div>
-        <p>COMPANY</p>
-        <ul>
+        <p className='text-xl font-medium mb-5'>COMPANY</p>
+        <ul className='flex flex-col gap-2 text-gray-600'>
             <li>Home</li>
             <li>About us</li>
             <li>Contact us</li>
@@ -30,8 +30,8 @@ const Footer = () => {
    <div>
     {/* -----Right Side of Footer------ */}
     <div>
-        <p>GET IN TOUCH</p>
-        <ul>
+        <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
+        <ul className='flex flex-col gap-2 text-gray-600'>
             <li>9876542133</li>
             <li>hitman@45gmail.com</li>
         </ul>
